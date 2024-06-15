@@ -14,7 +14,7 @@ local function tp()
         for _, part in pairs(tf:GetChildren()) do
             if part:IsA("BasePart") then
                 teleportToPart(part)
-                wait(1)
+                wait(0.1)
             end
         end
         grab()
