@@ -34,7 +34,7 @@ local function start()
     spamming = true
     while spamming do
         grab()
-        wait(0.1) 
+        wait(0.3) 
     end
 end
 
